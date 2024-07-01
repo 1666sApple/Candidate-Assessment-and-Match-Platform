@@ -39,3 +39,29 @@ def input_pdf_setup(uploaded_file):
         return pdf_parts
     else:
         raise FileNotFoundError("No file uploaded")
+    
+## Streamlit app
+
+st.set_page_config(page_title="Resume Summarizer", page_icon=":guardsman:", layout="wide")
+st.header("Resume Summarizer")
+st.subheader("Upload your resume to get a summary")
+input_text = st.text_area("Job Description: ", key= "input")
+uploaded_file = st.file_uploader("Upload Resume in PDF format", type=["pdf"], key="uploaded_file")
+
+
+if uploaded_file is not None:
+    st.write("PDF upload successful")
+    
+submit1 = st.button("Generate Summary")
+
+submit2 = st.button("Skills to improve")
+
+submit3 = st.button("Skills to learn")
+
+submit4 = st.button("Match")
+
+
+input_prompt = """
+
+
+"""
