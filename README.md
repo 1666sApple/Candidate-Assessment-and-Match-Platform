@@ -15,7 +15,8 @@ A Streamlit web application to summarize resumes, highlight skills to improve, s
 1. Clone the repository:
    ```bash
    git clone https://github.com/1666sApple/Candidate-Assessment-and-Match-Platform.git
-```
+    ```
+
 2. Change to the project directory:
 ```bash
 cd Candidate-Assessment-and-Match-Platform
