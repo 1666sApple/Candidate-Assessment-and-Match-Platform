@@ -23,8 +23,8 @@ cd Candidate-Assessment-and-Match-Platform
 ```
 3. Create a virtual environment and activate it:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python -m .venv .venv
+source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
 ```
 4. Install the required packages:
 ```bash
